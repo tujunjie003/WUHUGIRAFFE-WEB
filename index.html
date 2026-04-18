@@ -1,322 +1,330 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>芜湖长颈鹿成长中心 — 学习是开始，品格是永远</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>芜湖长颈鹿成长中心 — 学习是开始，品格是永远</title>
+  <meta name="description" content="芜湖长颈鹿成长中心，专注3至12岁儿童英语启蒙与数学思维培养，6年深耕芜湖教育。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- Nav -->
-<nav class="nav">
-    <div class="container nav__inner">
-        <div class="nav__brand">
-            <div class="nav__brand-icon">
-                <img src="images/logo.png" alt="长颈鹿">
-            </div>
-            <span class="nav__brand-name">芜湖长颈鹿成长中心</span>
-        </div>
-        <ul class="nav__links">
-            <li><a href="#home">首页</a></li>
-            <li><a href="#courses">课程</a></li>
-            <li><a href="#about">关于</a></li>
-            <li><a href="#contact" class="nav__cta">预约咨询</a></li>
-        </ul>
-        <div class="nav__hamburger" onclick="document.querySelector('.nav__links').classList.toggle('nav__links--open')">
-            <span></span><span></span><span></span>
-        </div>
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="主导航">
+  <div class="container nav__inner">
+    <div class="nav__brand">
+      <div class="nav__logo">
+        <img src="images/logo.png" alt="长颈鹿">
+      </div>
+      <span class="nav__name">芜湖长颈鹿成长中心</span>
     </div>
+    <ul class="nav__links">
+      <li><a href="#home">首页</a></li>
+      <li><a href="#courses">课程</a></li>
+      <li><a href="#about">关于</a></li>
+      <li><a href="#contact" class="nav__cta">预约咨询</a></li>
+    </ul>
+    <div class="nav__ham" onclick="document.querySelector('.nav__links').classList.toggle('nav__links--open')" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
 </nav>
 
-<!-- Hero -->
-<section id="home" class="hero">
-    <div class="hero__content">
-        <div class="hero__content-inner">
-            <p class="hero__eyebrow">6年深耕芜湖教育</p>
-            <h1 class="hero__title">芜湖长颈鹿成长中心</h1>
-            <p class="hero__subtitle">专注3至12岁儿童英语启蒙与数学思维培养。让孩子在快乐中学习，在品格中成长。</p>
-            <div class="hero__actions">
-                <a href="#contact" class="btn btn--primary">预约体验课</a>
-                <a href="#courses" class="btn btn--outline">了解课程</a>
-            </div>
-        </div>
+<!-- HERO — DV:8 Asymmetric 60/40 -->
+<header id="home" class="hero">
+  <div class="hero__left">
+    <div class="hero__left-inner">
+      <p class="t-eyebrow">6年深耕芜湖教育</p>
+      <h1 class="t-h1">芜湖长颈鹿成长中心</h1>
+      <p class="t-body">专注3至12岁儿童英语启蒙与数学思维培养。让孩子在快乐中学习，在品格中成长。</p>
+      <div class="hero__btns">
+        <a href="#contact" class="btn btn--primary">预约体验课</a>
+        <a href="#courses" class="btn btn--outline">了解课程</a>
+      </div>
     </div>
-    <div class="hero__visual">
-        <div class="hero__img"></div>
-        <div class="hero__spots"></div>
-    </div>
-</section>
+  </div>
+  <div class="hero__right" aria-hidden="true">
+    <div class="hero__photo"></div>
+    <div class="hero__spots"></div>
+  </div>
+</header>
 
-<!-- Courses -->
+<!-- COURSES -->
 <section id="courses" class="section section--cream">
-    <div class="container">
-        <div class="section__header">
-            <p class="section__eyebrow">课程体系</p>
-            <h2 class="section__title">英语 · 数学 · 品格，全面发展</h2>
-        </div>
-        <div class="courses-grid">
-            <div class="course-card reveal reveal-delay-1">
-                <img class="course-card__img" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&h=400&fit=crop" alt="英语课堂">
-                <div class="course-card__body">
-                    <div class="course-card__icon">
-                        <img src="images/logo.png" alt="" style="width:26px;height:26px;border-radius:50%;">
-                    </div>
-                    <h3 class="course-card__title">长颈鹿英语</h3>
-                    <p class="course-card__desc">专业英语启蒙至进阶课程，采用情景互动式教学，让孩子在真实语境中练开口，告别哑巴英语。</p>
-                    <div class="course-card__tags">
-                        <span class="tag">小班制</span>
-                        <span class="tag">情景演练</span>
-                        <span class="tag">3至12岁</span>
-                    </div>
-                    <a href="#contact" class="course-card__link">咨询报名 →</a>
-                </div>
-            </div>
-            <div class="course-card reveal reveal-delay-2">
-                <img class="course-card__img" src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=700&h=400&fit=crop" alt="数学课堂">
-                <div class="course-card__body">
-                    <div class="course-card__icon">
-                        <img src="images/logo.png" alt="" style="width:26px;height:26px;border-radius:50%;">
-                    </div>
-                    <h3 class="course-card__title">未来魔法校数学</h3>
-                    <p class="course-card__desc">数学思维拓展与同步辅导双轨并行，培养逻辑能力，激发数学兴趣，1至6年级全覆盖。</p>
-                    <div class="course-card__tags">
-                        <span class="tag">思维拓展</span>
-                        <span class="tag">同步辅导</span>
-                        <span class="tag">1至6年级</span>
-                    </div>
-                    <a href="#contact" class="course-card__link">咨询报名 →</a>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="section-head">
+      <p class="t-eyebrow">课程体系</p>
+      <h2 class="t-h2">英语 · 数学 · 品格，全面发展</h2>
     </div>
+    <div class="courses-grid">
+      <!-- Course 1: English -->
+      <article class="course-card reveal delay-1">
+        <img class="course-card__img" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&h=400&fit=crop" alt="儿童英语课堂">
+        <div class="course-card__body">
+          <div class="course-card__icon">
+            <img src="images/logo.png" alt="">
+          </div>
+          <h3 class="t-h3">长颈鹿英语</h3>
+          <p class="t-body">专业英语启蒙至进阶课程，采用情景互动式教学，让孩子在真实语境中练开口，告别哑巴英语。</p>
+          <div class="course-card__tags">
+            <span class="tag">小班制</span>
+            <span class="tag">情景演练</span>
+            <span class="tag">3至12岁</span>
+          </div>
+          <a href="#contact" class="course-card__link">咨询报名
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+      <!-- Course 2: Math -->
+      <article class="course-card reveal delay-2">
+        <img class="course-card__img" src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=700&h=400&fit=crop" alt="数学思维课堂">
+        <div class="course-card__body">
+          <div class="course-card__icon">
+            <img src="images/logo.png" alt="">
+          </div>
+          <h3 class="t-h3">未来魔法校数学</h3>
+          <p class="t-body">数学思维拓展与同步辅导双轨并行，培养逻辑能力，激发数学兴趣，1至6年级全覆盖。</p>
+          <div class="course-card__tags">
+            <span class="tag">思维拓展</span>
+            <span class="tag">同步辅导</span>
+            <span class="tag">1至6年级</span>
+          </div>
+          <a href="#contact" class="course-card__link">咨询报名
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
 </section>
 
-<!-- About -->
+<!-- ABOUT -->
 <section id="about" class="section section--white">
-    <div class="container">
-        <div class="about-grid">
-            <div class="about-imgs">
-                <div class="about-img--main reveal">
-                    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=700&h=600&fit=crop" alt="校区环境">
-                </div>
-                <div class="about-img--sub reveal reveal-delay-1">
-                    <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=500&h=300&fit=crop" alt="孩子学习">
-                </div>
-            </div>
-            <div class="about-text">
-                <div class="section__header">
-                    <p class="section__eyebrow">关于长颈鹿</p>
-                    <h2 class="section__title">学习是开始，品格是永远</h2>
-                </div>
-                <p class="reveal">芜湖长颈鹿成长中心，深耕芜湖教育市场6年，专注3至12岁儿童的英语启蒙与数学思维培养。我们相信，好的教育不仅是知识的传递，更是品格的塑造。</p>
-                <div class="about-features">
-                    <div class="about-feat reveal reveal-delay-1">
-                        <div class="about-feat__icon">
-                            <img src="images/logo.png" alt="" style="width:22px;height:22px;border-radius:50%;">
-                        </div>
-                        <div class="about-feat__text">
-                            <h4>专业师资</h4>
-                            <p>8位资深英语教师，2位数学专业教师</p>
-                        </div>
-                    </div>
-                    <div class="about-feat reveal reveal-delay-2">
-                        <div class="about-feat__icon">
-                            <img src="images/logo.png" alt="" style="width:22px;height:22px;border-radius:50%;">
-                        </div>
-                        <div class="about-feat__text">
-                            <h4>舒适环境</h4>
-                            <p>8间标准教室，全新装修，软硬件一流</p>
-                        </div>
-                    </div>
-                    <div class="about-feat reveal reveal-delay-3">
-                        <div class="about-feat__icon">
-                            <img src="images/logo.png" alt="" style="width:22px;height:22px;border-radius:50%;">
-                        </div>
-                        <div class="about-feat__text">
-                            <h4>贴心服务</h4>
-                            <p>1对1课程顾问，全程跟踪学习效果</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-imgs">
+        <div class="about-img about-img--tall reveal">
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=700&h=600&fit=crop" alt="校区环境">
         </div>
+        <div class="about-img about-img--short reveal delay-1">
+          <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=500&h=300&fit=crop" alt="孩子学习">
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-head">
+          <p class="t-eyebrow">关于长颈鹿</p>
+          <h2 class="t-h2">学习是开始，品格是永远</h2>
+        </div>
+        <p class="t-body reveal">芜湖长颈鹿成长中心，深耕芜湖教育市场6年，专注3至12岁儿童的英语启蒙与数学思维培养。我们相信，好的教育不仅是知识的传递，更是品格的塑造。</p>
+        <div class="about-feats">
+          <div class="about-feat reveal delay-1">
+            <div class="about-feat__icon">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="about-feat__text">
+              <h4>专业师资</h4>
+              <p>8位资深英语教师，2位数学专业教师</p>
+            </div>
+          </div>
+          <div class="about-feat reveal delay-2">
+            <div class="about-feat__icon">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="about-feat__text">
+              <h4>舒适环境</h4>
+              <p>8间标准教室，全新装修，软硬件一流</p>
+            </div>
+          </div>
+          <div class="about-feat reveal delay-3">
+            <div class="about-feat__icon">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="about-feat__text">
+              <h4>贴心服务</h4>
+              <p>1对1课程顾问，全程跟踪学习效果</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- Why Us -->
+<!-- WHY US -->
 <section class="section section--cream">
-    <div class="container">
-        <div class="section__header">
-            <p class="section__eyebrow">选择理由</p>
-            <h2 class="section__title">为什么选择长颈鹿</h2>
-        </div>
-        <div class="why-grid">
-            <div class="why-card reveal reveal-delay-1">
-                <div class="why-card__icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-                </div>
-                <h3 class="why-card__title">体系完善</h3>
-                <p class="why-card__desc">英语+数学双轨并行，打造完整学习闭环</p>
-            </div>
-            <div class="why-card reveal reveal-delay-2">
-                <div class="why-card__icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
-                </div>
-                <h3 class="why-card__title">师资雄厚</h3>
-                <p class="why-card__desc">资深教师带队，定期教研培训，保证教学质量</p>
-            </div>
-            <div class="why-card reveal reveal-delay-3">
-                <div class="why-card__icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                </div>
-                <h3 class="why-card__title">交通便利</h3>
-                <p class="why-card__desc">新时代商业街核心位置，欢迎实地参观</p>
-            </div>
-            <div class="why-card reveal reveal-delay-4">
-                <div class="why-card__icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                </div>
-                <h3 class="why-card__title">收费透明</h3>
-                <p class="why-card__desc">无隐形收费，优惠信息提前通知，续费政策清晰</p>
-            </div>
-        </div>
+  <div class="container">
+    <div class="section-head">
+      <p class="t-eyebrow">选择理由</p>
+      <h2 class="t-h2">为什么选择长颈鹿</h2>
     </div>
+    <div class="why-grid">
+      <div class="why-card reveal delay-1">
+        <div class="why-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h3 class="t-h3">体系完善</h3>
+        <p class="t-body">英语+数学双轨并行，打造完整学习闭环</p>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+        </div>
+        <h3 class="t-h3">师资雄厚</h3>
+        <p class="t-body">资深教师带队，定期教研培训，保证教学质量</p>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3 class="t-h3">交通便利</h3>
+        <p class="t-body">新时代商业街核心位置，欢迎实地参观</p>
+      </div>
+      <div class="why-card reveal delay-4">
+        <div class="why-card__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3 class="t-h3">收费透明</h3>
+        <p class="t-body">无隐形收费，优惠信息提前通知，续费政策清晰</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- Contact -->
-<section id="contact" class="contact section">
-    <div class="container">
-        <div class="section__header">
-            <p class="section__eyebrow">预约咨询</p>
-            <h2 class="section__title">联系我们</h2>
-        </div>
-        <div class="contact-grid">
-            <div class="form-card reveal">
-                <form id="contact-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label class="form-label" for="name"><span style="color:#DC2626">*</span> 孩子姓名</label>
-                            <input class="form-input" type="text" id="name" name="name" required placeholder="请输入孩子姓名">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="phone"><span style="color:#DC2626">*</span> 联系电话</label>
-                            <input class="form-input" type="tel" id="phone" name="phone" required placeholder="请输入11位手机号">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="grade"><span style="color:#DC2626">*</span> 就读年级</label>
-                        <select class="form-select" id="grade" name="grade" required>
-                            <option value="">请选择</option>
-                            <option value="未上学">未上学</option>
-                            <option value="小班">小班</option>
-                            <option value="中班">中班</option>
-                            <option value="大班">大班</option>
-                            <option value="一年级">一年级</option>
-                            <option value="二年级">二年级</option>
-                            <option value="三年级">三年级</option>
-                            <option value="四年级">四年级</option>
-                            <option value="五年级">五年级</option>
-                            <option value="六年级">六年级</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="course">意向课程</label>
-                        <select class="form-select" id="course" name="course">
-                            <option value="">请选择</option>
-                            <option value="英语">长颈鹿英语</option>
-                            <option value="数学">未来魔法校数学</option>
-                            <option value="综合">综合咨询</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="message">留言（选填）</label>
-                        <textarea class="form-textarea" id="message" name="message" rows="3" placeholder="如有其他问题请留言"></textarea>
-                    </div>
-                    <p class="form-note"><span style="color:#DC2626">*</span> 红色标注为必填项</p>
-                    <button type="submit" class="btn btn--primary form-btn">提交预约</button>
-                </form>
-            </div>
-            <div class="contact-info">
-                <div class="contact-info__item reveal reveal-delay-1">
-                    <div class="contact-info__icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    </div>
-                    <div>
-                        <strong>校区地址</strong>
-                        <p>安徽省芜湖市弋江区<br>新时代商业街19#221号</p>
-                    </div>
-                </div>
-                <div class="contact-info__item reveal reveal-delay-2">
-                    <div class="contact-info__icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
-                    </div>
-                    <div>
-                        <strong>联系电话</strong>
-                        <p>193 1539 3167</p>
-                    </div>
-                </div>
-                <div class="contact-info__item reveal reveal-delay-3">
-                    <div class="contact-info__icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                    </div>
-                    <div>
-                        <strong>微信咨询</strong>
-                        <div class="wechat-box">
-                            <img src="images/wechat-qr.png" alt="微信">
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-info__item reveal reveal-delay-4">
-                    <div class="contact-info__icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                    </div>
-                    <div>
-                        <strong>上课时间</strong>
-                        <p>周二至周五 13:30-20:30<br>周六 09:00-20:30<br>周日 08:00-18:30</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- CONTACT -->
+<section id="contact" class="section section--dark">
+  <div class="container">
+    <div class="section-head">
+      <p class="t-eyebrow">预约咨询</p>
+      <h2 class="t-h2">联系我们</h2>
     </div>
+    <div class="contact-grid">
+      <div class="form-card reveal">
+        <form id="contact-form" action="https://formspree.io/f/xaqajybe" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name"><span class="req">*</span> 孩子姓名</label>
+              <input class="form-input" type="text" id="name" name="name" required placeholder="请输入孩子姓名" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone"><span class="req">*</span> 联系电话</label>
+              <input class="form-input" type="tel" id="phone" name="phone" required placeholder="请输入11位手机号" autocomplete="tel">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="grade"><span class="req">*</span> 就读年级</label>
+            <select class="form-select" id="grade" name="grade" required>
+              <option value="">请选择</option>
+              <option value="未上学">未上学</option>
+              <option value="小班">小班</option>
+              <option value="中班">中班</option>
+              <option value="大班">大班</option>
+              <option value="一年级">一年级</option>
+              <option value="二年级">二年级</option>
+              <option value="三年级">三年级</option>
+              <option value="四年级">四年级</option>
+              <option value="五年级">五年级</option>
+              <option value="六年级">六年级</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="course">意向课程</label>
+            <select class="form-select" id="course" name="course">
+              <option value="">请选择</option>
+              <option value="英语">长颈鹿英语</option>
+              <option value="数学">未来魔法校数学</option>
+              <option value="综合">综合咨询</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">留言（选填）</label>
+            <textarea class="form-textarea" id="message" name="message" rows="3" placeholder="如有其他问题请留言"></textarea>
+          </div>
+          <p class="form-note"><span class="req">*</span> 红色标注为必填项</p>
+          <button type="submit" class="btn btn--primary form-btn">提交预约</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h3>联系方式</h3>
+        <div class="contact-item reveal delay-1">
+          <div class="contact-item__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <span class="contact-item__label">校区地址</span>
+            <p class="contact-item__value">安徽省芜湖市弋江区<br>新时代商业街19#221号</p>
+          </div>
+        </div>
+        <div class="contact-item reveal delay-2">
+          <div class="contact-item__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          </div>
+          <div>
+            <span class="contact-item__label">联系电话</span>
+            <p class="contact-item__value">193 1539 3167</p>
+          </div>
+        </div>
+        <div class="contact-item reveal delay-3">
+          <div class="contact-item__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div>
+            <span class="contact-item__label">微信咨询</span>
+            <div class="wechat-box">
+              <img src="images/wechat-qr.png" alt="长颈鹿微信">
+            </div>
+          </div>
+        </div>
+        <div class="contact-item reveal delay-4">
+          <div class="contact-item__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <span class="contact-item__label">上课时间</span>
+            <p class="contact-item__value">周二至周五 13:30-20:30<br>周六 09:00-20:30<br>周日 08:00-18:30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- Footer -->
+<!-- FOOTER -->
 <footer class="footer">
-    <div class="container">
-        <div class="footer__grid">
-            <div>
-                <div class="footer__brand">
-                    <div class="footer__brand-icon">
-                        <img src="images/logo.png" alt="" style="width:16px;height:16px;border-radius:50%;">
-                    </div>
-                    芜湖长颈鹿成长中心
-                </div>
-                <p class="footer__slogan">学习是开始，品格是永远</p>
-                <p style="margin-top:1rem;font-size:0.8125rem">深耕芜湖教育市场6年，专注3至12岁儿童成长培养。</p>
-            </div>
-            <div>
-                <h4>快速导航</h4>
-                <ul class="footer__links">
-                    <li><span>首页</span></li>
-                    <li><span>课程介绍</span></li>
-                    <li><span>关于我们</span></li>
-                    <li><span>预约咨询</span></li>
-                </ul>
-            </div>
-            <div class="footer__contact">
-                <h4>联系我们</h4>
-                <p>193 1539 3167</p>
-                <p>安徽省芜湖市弋江区<br>新时代商业街19#221号</p>
-            </div>
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          芜湖长颈鹿成长中心
         </div>
-        <div class="footer__bottom">
-            <p>© 2024 芜湖长颈鹿成长中心　版权所有</p>
-        </div>
+        <p class="footer__slogan">学习是开始，品格是永远</p>
+        <p>深耕芜湖教育市场6年，专注3至12岁儿童成长培养。</p>
+      </div>
+      <div>
+        <h4>快速导航</h4>
+        <ul class="footer__links">
+          <li><span>首页</span></li>
+          <li><span>课程介绍</span></li>
+          <li><span>关于我们</span></li>
+          <li><span>预约咨询</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <p>193 1539 3167</p>
+        <p style="margin-top:0.5rem">安徽省芜湖市弋江区<br>新时代商业街19#221号</p>
+      </div>
     </div>
+    <div class="footer__bottom">
+      <p>© 2024 芜湖长颈鹿成长中心　版权所有</p>
+    </div>
+  </div>
 </footer>
 
 <script src="js/main.js"></script>
