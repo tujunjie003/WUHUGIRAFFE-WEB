@@ -77,7 +77,7 @@ export default function HomePage() {
                 transition={{ delay: 0.2 }}
                 className="text-lg sm:text-xl text-stone-600 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed"
               >
-                芜湖长颈鹿成长中心，专注3-12岁幼少儿教育，以爱为底色，用专业浇灌，助力孩子全面成长，以爱为底色，用专业浇灌，
+                芜湖长颈鹿成长中心，专注3-12岁幼少儿教育，以爱为底色，用专业浇灌，助力孩子全面成长
                 <br className="hidden sm:block" />
                 助力孩子全面成长。
               </motion.p>
