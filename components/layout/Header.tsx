@@ -33,7 +33,7 @@ export default function Header() {
           </motion.div>
           <div>
             <span className="font-semibold text-stone-900 tracking-tight">芜湖长颈鹿成长中心</span>
-            <span className="hidden sm:block text-xs text-stone-500">幼少儿素质教育的领航者</span>
+            <span className="hidden sm:block text-xs text-stone-500">幼少儿教育的领航者</span>
           </div>
         </Link>
 
