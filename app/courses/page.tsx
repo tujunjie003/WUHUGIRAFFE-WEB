@@ -150,7 +150,7 @@ export default function CoursesPage() {
           <p className="text-orange-100 mb-8 text-lg">
             预约一次免费咨询，我们的课程顾问会为您推荐最适合孩子的课程组合
           </p>
-          <button className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-xl hover:bg-orange-50 transition-colors shadow-xl text-lg">
+          <button className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-xl hover:bg-orange-600 hover:text-white transition-colors shadow-xl text-lg">
             预约免费咨询
           </button>
         </div>
