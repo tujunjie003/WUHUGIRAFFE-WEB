@@ -1,0 +1,57 @@
+/**
+ * 全局样式文件
+ * @description Tailwind CSS 基础指令 + 全局样式
+ */
+
+/* Tailwind 基础指令 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Geist 字体 - 从 Vercel CDN 加载 */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap');
+
+/* 全局 CSS 变量 */
+:root {
+  --color-bg: #fafaf8;
+  --color-surface: #ffffff;
+  --color-text: #18181b;
+  --color-text-muted: #71717a;
+  --color-border: #e4e4e7;
+  --color-accent: #10b981;
+  --color-accent-light: #d1fae5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #09090b;  /* zinc-950 */
+  font-family: 'Geist', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
+
+::selection {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: #fafaf8;
+}
