@@ -15,7 +15,7 @@ const TEACHERS = [
   {
     name: 'Sarah 老师',
     title: '英语戏剧课程总监',
-    experience: '8年教学经验',
+    experience: '6年教学经验',
     education: '英国伦敦大学教育学硕士',
     certifications: ['TESOL认证', '戏剧教育导师'],
     desc: '拥有丰富的海外教学经历，将沉浸式戏剧教学带入课堂，让孩子在快乐中掌握纯正英语。',
@@ -53,7 +53,7 @@ const TEACHERS = [
 const STATS = [
   { value: '100%', label: '持证上岗' },
   { value: '50+', label: '专业教师' },
-  { value: '8年', label: '平均教龄' },
+  { value: '6年', label: '平均教龄' },
   { value: '95%', label: '家长好评' },
 ]
 

@@ -12,7 +12,7 @@ import Card from '@/components/ui/Card'
 import { motion } from 'framer-motion'
 
 const MILESTONES = [
-  { year: '2016', title: '梦想启航', desc: '芜湖长颈鹿成长中心成立，开启幼少儿素质教育新篇章' },
+  { year: '2018', title: '梦想启航', desc: '芜湖长颈鹿成长中心成立，开启幼少儿素质教育新篇章' },
   { year: '2018', title: '课程升级', desc: '引进国际先进教育理念，课程体系全面升级' },
   { year: '2020', title: '线上线下融合', desc: '疫情期间率先实现OMO教学模式' },
   { year: '2023', title: '规模扩张', desc: '在读学员突破5000人，师资团队超100人' },
@@ -69,7 +69,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-stone-600 leading-relaxed">
                 <p>
-                  2016年，几位有着共同教育理想的海归妈妈，在天津创办了芜湖长颈鹿成长中心。
+                  2018年，几位有着共同教育理想的海归妈妈，在天津创办了芜湖长颈鹿成长中心。
                   她们相信，每一个孩子都有独特的潜能，而好的教育，应该像阳光和雨露，
                   滋养而不是塑造。
                 </p>

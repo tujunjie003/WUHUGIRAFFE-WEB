@@ -17,7 +17,7 @@ const HERO_STATS = [
   { icon: <Users size={20} />, value: '200+', label: '在读学员' },
   { icon: <GraduationCap size={20} />, value: '98%', label: '家长满意度' },
   { icon: <Star size={20} />, value: '50+', label: '精品课程' },
-  { icon: <Clock size={20} />, value: '8年', label: '办学经验' },
+  { icon: <Clock size={20} />, value: '6年', label: '办学经验' },
 ]
 
 const FEATURES = [
