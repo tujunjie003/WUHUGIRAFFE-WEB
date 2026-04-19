@@ -10,8 +10,6 @@ import Footer from '@/components/layout/Footer'
 import Card from '@/components/ui/Card'
 
 export default function ContactPage() {
-  const mapUrl = "https://map.qq.com/?marker=coord:31.314956,118.369562;title:新时代商业街-19号楼;addr:安徽省芜湖市弋江区新时代商业街&referer=wxsharepoi&key=TKUBZ-D24AF-GJ4JY-JDVM2-IBYKK-KEBCU"
-
   return (
     <div className="min-h-screen bg-stone-50">
       <Header />
@@ -48,14 +46,6 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-stone-900 font-medium mb-1">校区地址</h3>
                     <p className="text-stone-600 text-sm">芜湖市弋江区新时代商业街19# 221 223号</p>
-                    <a 
-                      href="https://map.qq.com/?marker=coord:31.314956,118.369562;title:新时代商业街-19号楼;addr:安徽省芜湖市弋江区新时代商业街"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-orange-500 text-sm hover:text-orange-600 mt-1 inline-block"
-                    >
-                      在地图中查看 →
-                    </a>
                   </div>
                 </div>
               </Card>
@@ -88,16 +78,15 @@ export default function ContactPage() {
               </Card>
             </div>
 
-            {/* 地图 */}
-            <Card className="overflow-hidden">
-              <iframe
-                src="https://map.qq.com/?marker=coord:31.314956,118.369562;title:新时代商业街-19号楼;addr:安徽省芜湖市弋江区新时代商业街&referer=wxsharepoi&key=TKUBZ-D24AF-GJ4JY-JDVM2-IBYKK-KEBCU"
-                width="100%"
-                height="100%"
-                style={{ minHeight: '400px', border: 'none' }}
-                title="校区位置地图"
-                loading="lazy"
-              />
+            {/* 地图占位 */}
+            <Card className="p-6 min-h-[400px]">
+              <div className="w-full h-full min-h-[360px] rounded-2xl bg-gradient-to-br from-stone-100 to-stone-200 flex items-center justify-center border border-stone-200">
+                <div className="text-center">
+                  <MapPin size={48} className="text-orange-400/30 mx-auto mb-4" />
+                  <p className="text-stone-500 text-sm">芜湖市弋江区新时代商业街19# 221 223号</p>
+                  <p className="text-stone-400 text-xs mt-1">复制地址到地图APP查看</p>
+                </div>
+              </div>
             </Card>
           </div>
         </div>
