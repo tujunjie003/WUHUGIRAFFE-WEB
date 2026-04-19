@@ -14,16 +14,16 @@ import Button from '@/components/ui/Button'
 import { motion } from 'framer-motion'
 
 const HERO_STATS = [
-  { icon: <Users size={20} />, value: '200+', label: '在读学员' },
+  { icon: <Users size={20} />, value: '300+', label: '在读学员' },
   { icon: <GraduationCap size={20} />, value: '98%', label: '家长满意度' },
-  { icon: <Star size={20} />, value: '50+', label: '精品课程' },
+  { icon: <Star size={20} />, value: '3门核心课程', label: '精品课程' },
   { icon: <Clock size={20} />, value: '6年', label: '办学经验' },
 ]
 
 const FEATURES = [
-  { title: '素质教育体系', desc: '科学完善的课程体系，涵盖语言表达、逻辑思维、艺术创造等多个维度', color: 'from-orange-400 to-amber-500' },
+  { title: '素质教育体系', desc: '科学完善的课程体系，涵盖语言表达、逻辑思维等多个维度', color: 'from-orange-400 to-amber-500' },
   { title: '专业师资团队', desc: '全部教师持证上岗，资深教育专家领衔研发课程', color: 'from-blue-400 to-indigo-500' },
-  { title: '小班精品教学', desc: '8-12人小班制，确保每位孩子都能得到充分的关注和指导', color: 'from-purple-400 to-pink-500' },
+  { title: '小班精品教学', desc: '10-12人小班制，确保每位孩子都能得到充分的关注和指导', color: 'from-purple-400 to-pink-500' },
   { title: '家校共育', desc: '完善的家长沟通机制，定期成长报告，让家长全程参与', color: 'from-green-400 to-emerald-500' },
 ]
 
@@ -56,7 +56,7 @@ export default function HomePage() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-100 border border-orange-200 text-orange-600 text-sm mb-8"
               >
                 <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-                2024年秋季班火热招生中
+                2026年火热招生中
               </motion.div>
 
               <motion.h1
@@ -78,7 +78,7 @@ export default function HomePage() {
                 transition={{ delay: 0.2 }}
                 className="text-lg sm:text-xl text-stone-600 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed"
               >
-                芜湖长颈鹿成长中心，专注3-12岁幼少儿素质教育，以爱为底色，用专业浇灌，
+                芜湖长颈鹿成长中心，专注3-12岁幼少儿教育，以爱为底色，用专业浇灌，助力孩子全面成长，以爱为底色，用专业浇灌，
                 <br className="hidden sm:block" />
                 助力孩子全面成长。
               </motion.p>
