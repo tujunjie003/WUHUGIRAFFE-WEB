@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/WUHUGIRAFFE-WEB',
-  assetPrefix: '/WUHUGIRAFFE-WEB/_next/',
 }
 
 module.exports = nextConfig
