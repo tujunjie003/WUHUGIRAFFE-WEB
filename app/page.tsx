@@ -46,7 +46,7 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="text-right">
+            <div className="text-center lg:text-left">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -82,7 +82,7 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
-                className="flex flex-col sm:flex-row items-center justify-end gap-4 mb-16"
+                className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-16"
               >
                 <Link href="/enroll">
                   <Button size="lg">
@@ -103,7 +103,7 @@ export default function HomePage() {
                 className="grid grid-cols-3 gap-4"
               >
                 {HERO_STATS.map((stat, i) => (
-                  <div key={i} className="text-right">
+                  <div key={i} className="text-center">
                     <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-white border border-stone-200 shadow-sm mb-3 text-orange-500">
                       {stat.icon}
                     </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
       {/* 特色介绍 */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-right mb-16">
+          <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-semibold text-stone-900 tracking-tight mb-4">
               为什么选择长颈鹿
             </h2>
@@ -197,7 +197,7 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="text-right mt-8">
+          <div className="text-center mt-8">
             <Link href="/enroll">
               <Button size="lg">
                 立即预约体验

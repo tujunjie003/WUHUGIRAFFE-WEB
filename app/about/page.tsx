@@ -34,7 +34,7 @@ export default function AboutPage() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/5 rounded-full blur-[120px]" />
         </div>
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-right">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">关于我们</h1>
           <p className="text-xl text-stone-600 leading-relaxed">
             2019年，芜湖长颈鹿成长中心成立。
@@ -48,7 +48,7 @@ export default function AboutPage() {
       <section className="py-16 bg-orange-50/50">
         <div className="max-w-2xl mx-auto px-4">
           <Card className="p-8">
-            <h2 className="text-2xl font-semibold text-stone-900 mb-6 text-right">我们的故事</h2>
+            <h2 className="text-2xl font-semibold text-stone-900 mb-6 text-center">我们的故事</h2>
             <div className="space-y-4 text-stone-600 leading-relaxed">
               <p>2019年，芜湖长颈鹿成长中心成立，致力于为3-12岁幼少儿提供优质的教育。我们相信，每一个孩子都有独特的潜能，而好的教育，应该像阳光和雨露，滋养而不是塑造。</p>
               <p>从最初的十几个孩子，到如今的三百名在读学员；从单一的英语课程，到涵盖语言、思维等多维度的课程体系；长颈鹿成长中心始终坚持"小而美"的办学理念，用心对待每一个孩子。</p>
@@ -61,10 +61,10 @@ export default function AboutPage() {
       {/* Values */}
       <section className="py-16 bg-white">
         <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-2xl font-semibold text-stone-900 mb-8 text-right">我们的价值观</h2>
+          <h2 className="text-2xl font-semibold text-stone-900 mb-8 text-center">我们的价值观</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {VALUES.map((v, i) => (
-              <Card key={i} className="p-6 text-right">
+              <Card key={i} className="p-6 text-center">
                 <div className="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center mx-auto mb-4 text-orange-500">{v.icon}</div>
                 <h3 className="text-lg font-medium text-stone-900 mb-2">{v.title}</h3>
                 <p className="text-sm text-stone-600">{v.desc}</p>
@@ -77,7 +77,7 @@ export default function AboutPage() {
       {/* Milestones */}
       <section className="py-16 bg-orange-50/50">
         <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-2xl font-semibold text-stone-900 mb-8 text-right">发展历程</h2>
+          <h2 className="text-2xl font-semibold text-stone-900 mb-8 text-center">发展历程</h2>
           <div className="space-y-4">
             {MILESTONES.map((m, i) => (
               <Card key={i} className="p-4 flex items-center gap-4">
