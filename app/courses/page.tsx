@@ -15,8 +15,8 @@ const COURSES = [
     category: '语言表达',
     name: '英语戏剧表演',
     age: '3-12岁',
-    duration: '60分钟/课时',
-    size: '8-12人',
+    duration: '幼儿90分钟/课时，少儿120分钟/课时',
+    size: '10-12人',
     desc: '通过经典童话剧目，让孩子在角色扮演中感受英语魅力，培养表达力和自信心。',
     highlights: ['沉浸式英语环境', '舞台表演训练', '情感表达能力', '团队协作意识'],
     color: 'from-orange-400 to-amber-500',
@@ -26,8 +26,8 @@ const COURSES = [
     category: '逻辑思维',
     name: '思维数学',
     age: '大班-6年级',
-    duration: '60分钟/课时',
-    size: '10-14人',
+    duration: '幼儿90分钟/课时，少儿120分钟/课时',
+    size: '10-12人',
     desc: '摒弃死记硬背，用游戏和故事的方式，带孩子发现数学的乐趣和美感。',
     highlights: ['趣味数学游戏', '空间想象训练', '问题解决能力', '逻辑推理思维'],
     color: 'from-blue-400 to-indigo-500',
@@ -37,8 +37,8 @@ const COURSES = [
     category: '同步培优',
     name: '小学英语数学同步',
     age: '3-6年级',
-    duration: '90分钟/课时',
-    size: '12-16人',
+    duration: '120分钟/课时',
+    size: '10-12人',
     desc: '与学校课程同步，巩固课堂知识，查漏补缺，提升学业成绩。',
     highlights: ['教材同步', '难点突破', '作业辅导', '定期测评'],
     color: 'from-green-400 to-emerald-500',
@@ -89,7 +89,7 @@ export default function CoursesPage() {
                         <h3 className="text-2xl font-semibold text-stone-900 tracking-tight">{course.name}</h3>
                         <div className="text-sm text-stone-500 mt-1">适合：{course.age}</div>
                       </div>
-                      <div className="flex gap-4 text-sm text-stone-500">
+                      <div className="flex flex-col items-end gap-2 text-sm text-stone-500">
                         <span className="flex items-center gap-1">
                           <Clock size={14} /> {course.duration}
                         </span>
