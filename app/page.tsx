@@ -1,10 +1,10 @@
 'use client'
 
 /**
- * 首页
+ * 首页 - 高端优雅设计
  */
 
-import { GraduationCap, Clock, Users, Star, ArrowRight, Play } from '@phosphor-icons/react'
+import { GraduationCap, Clock, Users, ArrowRight, Play } from '@phosphor-icons/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/layout/Header'
@@ -197,12 +197,10 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="text-center mt-8">
-            <Link href="/enroll">
-              <Button size="lg">
-                立即预约体验
-                <ArrowRight size={18} />
-              </Button>
+          <div className="text-center mt-8 sm:hidden">
+            <Link href="/courses" className="inline-flex items-center gap-2 text-orange-500 hover:text-orange-600">
+              查看全部课程
+              <ArrowRight size={16} />
             </Link>
           </div>
         </div>
