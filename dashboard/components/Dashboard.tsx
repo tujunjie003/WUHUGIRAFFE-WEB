@@ -33,7 +33,7 @@ interface RecentEnquiry {
   course: string
   phone: string
   time: string
-  status: 'pending' | 'contacted' | ' enrolled'
+  status: 'pending' | 'contacted' | 'enrolled'
 }
 
 const SidebarItem = ({ icon, label, active }: { icon: React.ReactNode; label: string; active?: boolean }) => (

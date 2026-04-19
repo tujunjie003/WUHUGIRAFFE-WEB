@@ -1,25 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Geist', 'system-ui', 'sans-serif'],
-        mono: ['Geist Mono', 'monospace'],
-      },
-      colors: {
-        // Using neutral zinc palette, no purple/blue
-        accent: {
-          DEFAULT: '#10b981', // emerald
-          hover: '#059669',
-        }
-      },
-      borderRadius: {
-        '4xl': '2rem',
-      }
+      fontFamily: { sans: ['Geist', 'system-ui', 'sans-serif'], mono: ['Geist Mono', 'monospace'] },
+      colors: { accent: { DEFAULT: '#10b981', hover: '#059669' } }
     },
   },
   plugins: [],
