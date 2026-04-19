@@ -2,11 +2,11 @@
 
 /**
  * 首页
- * @description 芜湖长颈鹿成长中心首页 - 温暖的橙白色调幼少儿教育平台
  */
 
 import { GraduationCap, Clock, Users, Star, ArrowRight, Play } from '@phosphor-icons/react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Card from '@/components/ui/Card'
@@ -15,7 +15,7 @@ import { motion } from 'framer-motion'
 
 const HERO_STATS = [
   { icon: <Users size={20} />, value: '300+', label: '在读学员' },
-  { icon: <GraduationCap size={20} />, value: '98%', label: '家长满意度' },
+  { icon: <GraduationCap size={20} />, value: '98%+', label: '家长好评' },
   { icon: <Clock size={20} />, value: '6年', label: '办学经验' },
 ]
 
@@ -27,10 +27,9 @@ const FEATURES = [
 ]
 
 const COURSE_PREVIEW = [
-  { name: '英语戏剧表演', age: '4-6岁', desc: '通过戏剧形式培养英语表达力和自信心', color: 'bg-orange-50 border-orange-200' },
-  { name: '逻辑思维训练', age: '5-7岁', desc: '趣味数学游戏，开发逻辑思维和问题解决能力', color: 'bg-blue-50 border-blue-200' },
-  { name: '创意美术', age: '3-8岁', desc: '多元材料探索，激发艺术创造力与审美素养', color: 'bg-purple-50 border-purple-200' },
-  { name: '科学探索', age: '6-10岁', desc: '动手实验+原理讲解，培养科学思维和探索精神', color: 'bg-green-50 border-green-200' },
+  { name: '英语戏剧表演', age: '3-12岁', time: '幼儿90min/少儿120min', desc: '通过戏剧形式培养英语表达力和自信心', color: 'bg-orange-50 border-orange-200' },
+  { name: '思维数学', age: '大班-6年级', time: '幼儿90min/少儿120min', desc: '趣味数学游戏，开发逻辑思维', color: 'bg-blue-50 border-blue-200' },
+  { name: '小学英语数学同步', age: '3-6年级', time: '120min', desc: '与学校课程同步，巩固提升学业', color: 'bg-green-50 border-green-200' },
 ]
 
 export default function HomePage() {
@@ -47,7 +46,6 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* 左侧文字内容 */}
             <div className="text-center lg:text-left">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -77,9 +75,7 @@ export default function HomePage() {
                 transition={{ delay: 0.2 }}
                 className="text-lg sm:text-xl text-stone-600 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed"
               >
-                芜湖长颈鹿成长中心，专注3-12岁幼少儿教育，以爱为底色，用专业浇灌，助力孩子全面成长
-                <br className="hidden sm:block" />
-                助力孩子全面成长。
+                芜湖长颈鹿成长中心，专注3-12岁幼少儿教育，以爱为底色，用专业浇灌，助力孩子全面成长。
               </motion.p>
 
               <motion.div
@@ -88,10 +84,12 @@ export default function HomePage() {
                 transition={{ delay: 0.3 }}
                 className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-16"
               >
-                <Button size="lg">
-                  预约免费体验课
-                  <ArrowRight size={18} />
-                </Button>
+                <Link href="/enroll">
+                  <Button size="lg">
+                    预约免费体验课
+                    <ArrowRight size={18} />
+                  </Button>
+                </Link>
                 <Button variant="secondary" size="lg">
                   <Play size={18} weight="fill" />
                   观看介绍视频
@@ -102,7 +100,7 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-                className="grid grid-cols-2 md:grid-cols-4 gap-4"
+                className="grid grid-cols-3 gap-4"
               >
                 {HERO_STATS.map((stat, i) => (
                   <div key={i} className="text-center">
@@ -116,7 +114,6 @@ export default function HomePage() {
               </motion.div>
             </div>
 
-            {/* 右侧图片 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -126,7 +123,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/WUHUGIRAFFE-WEB/images/hero.jpg"
-                  alt="芜湖长颈鹿成长中心 - 孩子们在教室中学习"
+                  alt="芜湖长颈鹿成长中心"
                   fill
                   className="object-cover"
                   priority
@@ -156,7 +153,7 @@ export default function HomePage() {
               为什么选择长颈鹿
             </h2>
             <p className="text-stone-600 max-w-xl mx-auto">
-              八年深耕幼少儿教育，我们深知每一个孩子都是独特的
+              六年深耕幼少儿教育，我们深知每一个孩子都是独特的
             </p>
           </div>
 
@@ -184,45 +181,30 @@ export default function HomePage() {
               </h2>
               <p className="text-stone-600">发现适合您孩子的课程</p>
             </div>
-            <a href="/courses" className="hidden sm:flex items-center gap-2 text-orange-500 hover:text-orange-600 transition-colors">
+            <Link href="/courses" className="hidden sm:flex items-center gap-2 text-orange-500 hover:text-orange-600 transition-colors">
               查看全部课程
               <ArrowRight size={16} />
-            </a>
+            </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {COURSE_PREVIEW.map((course, i) => (
               <Card key={i} className={`p-6 border ${course.color}`}>
-                <div className="text-xs text-orange-600 mb-2">{course.age}</div>
+                <div className="text-xs text-orange-600 mb-2">{course.age} · {course.time}</div>
                 <h3 className="text-lg font-medium text-stone-900 mb-2">{course.name}</h3>
                 <p className="text-sm text-stone-600 leading-relaxed">{course.desc}</p>
               </Card>
             ))}
           </div>
 
-          <a href="/courses" className="sm:hidden flex items-center justify-center gap-2 text-orange-500 hover:text-orange-600 mt-8">
-            查看全部课程
-            <ArrowRight size={16} />
-          </a>
-        </div>
-      </section>
-
-      {/* CTA 区域 */}
-      <section className="py-24 bg-gradient-to-br from-orange-500 to-amber-500 relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/10 rounded-full blur-[120px]" />
-        </div>
-        
-        <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-4">
-            准备好让孩子开始这段旅程了吗？
-          </h2>
-          <p className="text-orange-100 mb-8 max-w-xl mx-auto">
-            预约一节免费体验课，让您的孩子感受芜湖长颈鹿成长中心的独特魅力
-          </p>
-          <button className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-xl hover:bg-orange-50 transition-colors shadow-lg">
-            立即预约体验
-          </button>
+          <div className="text-center mt-8">
+            <Link href="/enroll">
+              <Button size="lg">
+                立即预约体验
+                <ArrowRight size={18} />
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
