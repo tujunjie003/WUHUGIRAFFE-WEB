@@ -49,7 +49,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-stone-900 font-medium mb-1">校区地址</h3>
-                    <p className="text-stone-600 text-sm">天津市河西区下瓦房恒华园1-2-301</p>
+                    <p className="text-stone-600 text-sm">芜湖市弋江区新时代商业街19# 221 223号</p>
                     <p className="text-stone-700 text-xs mt-1">近地铁1号线南楼站，停车方便</p>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-stone-900 font-medium mb-1">联系电话</h3>
-                    <p className="text-stone-600 text-sm">138-0000-1111</p>
+                    <p className="text-stone-600 text-sm">19315393167</p>
                     <p className="text-stone-700 text-xs mt-1">微信同号 (工作时间 9:00-21:00)</p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-stone-900 font-medium mb-1">电子邮箱</h3>
-                    <p className="text-stone-600 text-sm">hello@giraffe-edu.com</p>
+                    <p className="text-stone-600 text-sm">19315393167@giraffe-edu.com</p>
                   </div>
                 </div>
               </Card>

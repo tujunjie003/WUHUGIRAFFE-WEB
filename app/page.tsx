@@ -2,7 +2,7 @@
 
 /**
  * 首页
- * @description 长颈鹿学堂首页 - 温暖的橙白色调幼少儿教育平台
+ * @description 芜湖长颈鹿成长中心首页 - 温暖的橙白色调幼少儿教育平台
  */
 
 import { GraduationCap, Clock, Users, Star, ArrowRight, Play } from '@phosphor-icons/react'
@@ -78,7 +78,7 @@ export default function HomePage() {
                 transition={{ delay: 0.2 }}
                 className="text-lg sm:text-xl text-stone-600 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed"
               >
-                长颈鹿学堂，专注3-12岁幼少儿素质教育，以爱为底色，用专业浇灌，
+                芜湖长颈鹿成长中心，专注3-12岁幼少儿素质教育，以爱为底色，用专业浇灌，
                 <br className="hidden sm:block" />
                 助力孩子全面成长。
               </motion.p>
@@ -127,7 +127,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/WUHUGIRAFFE-WEB/images/hero.jpg"
-                  alt="长颈鹿学堂 - 孩子们在教室中学习"
+                  alt="芜湖长颈鹿成长中心 - 孩子们在教室中学习"
                   fill
                   className="object-cover"
                   priority
@@ -219,7 +219,7 @@ export default function HomePage() {
             准备好让孩子开始这段旅程了吗？
           </h2>
           <p className="text-orange-100 mb-8 max-w-xl mx-auto">
-            预约一节免费体验课，让您的孩子感受长颈鹿学堂的独特魅力
+            预约一节免费体验课，让您的孩子感受芜湖长颈鹿成长中心的独特魅力
           </p>
           <button className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-xl hover:bg-orange-50 transition-colors shadow-lg">
             立即预约体验

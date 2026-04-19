@@ -12,7 +12,7 @@ import Card from '@/components/ui/Card'
 import { motion } from 'framer-motion'
 
 const MILESTONES = [
-  { year: '2016', title: '梦想启航', desc: '长颈鹿学堂成立，开启幼少儿素质教育新篇章' },
+  { year: '2016', title: '梦想启航', desc: '芜湖长颈鹿成长中心成立，开启幼少儿素质教育新篇章' },
   { year: '2018', title: '课程升级', desc: '引进国际先进教育理念，课程体系全面升级' },
   { year: '2020', title: '线上线下融合', desc: '疫情期间率先实现OMO教学模式' },
   { year: '2023', title: '规模扩张', desc: '在读学员突破5000人，师资团队超100人' },
@@ -49,12 +49,12 @@ export default function AboutPage() {
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">
-            关于长颈鹿学堂
+            关于芜湖长颈鹿成长中心
           </h1>
           <p className="text-xl text-stone-600 leading-relaxed">
             八年前，一个关于教育的梦想在这里启航。
             <br />
-            今天，长颈鹿学堂已成为万千家庭的信赖之选。
+            今天，芜湖长颈鹿成长中心已成为万千家庭的信赖之选。
           </p>
         </div>
       </section>
@@ -69,14 +69,14 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-stone-600 leading-relaxed">
                 <p>
-                  2016年，几位有着共同教育理想的海归妈妈，在天津创办了长颈鹿学堂。
+                  2016年，几位有着共同教育理想的海归妈妈，在天津创办了芜湖长颈鹿成长中心。
                   她们相信，每一个孩子都有独特的潜能，而好的教育，应该像阳光和雨露，
                   滋养而不是塑造。
                 </p>
                 <p>
                   从最初的十几个孩子，到如今的几千名在读学员；
                   从单一的英语课程，到涵盖语言、思维、艺术、科学等多维度的课程体系；
-                  长颈鹿学堂始终坚持"小而美"的办学理念，用心对待每一个孩子。
+                  芜湖长颈鹿成长中心始终坚持"小而美"的办学理念，用心对待每一个孩子。
                 </p>
                 <p>
                   我们不追求规模最大，但追求品质最优。
@@ -90,7 +90,7 @@ export default function AboutPage() {
               <div className="aspect-[4/3] rounded-3xl overflow-hidden relative">
                 <Image
                   src="/WUHUGIRAFFE-WEB/images/about-team.jpg"
-                  alt="长颈鹿学堂团队"
+                  alt="芜湖长颈鹿成长中心团队"
                   fill
                   className="object-cover"
                 />

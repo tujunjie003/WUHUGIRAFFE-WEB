@@ -18,10 +18,10 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center">
                 <GraduationCap size={20} weight="fill" className="text-white" />
               </div>
-              <span className="font-semibold text-white text-lg">长颈鹿学堂</span>
+              <span className="font-semibold text-white text-lg">芜湖长颈鹿成长中心</span>
             </div>
             <p className="text-stone-400 text-sm leading-relaxed max-w-md">
-              长颈鹿学堂专注于3-12岁幼少儿素质教育，致力于培养孩子的创造力、表达力和思维力。让每一个孩子都能在快乐中成长，在探索中进步。
+              芜湖长颈鹿成长中心专注于3-12岁幼少儿素质教育，致力于培养孩子的创造力、表达力和思维力。让每一个孩子都能在快乐中成长，在探索中进步。
             </p>
           </div>
 
@@ -45,15 +45,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-stone-400 text-sm">
                 <MapPin size={16} className="mt-0.5 flex-shrink-0" />
-                <span>天津市河西区下瓦房恒华园1-2-301</span>
+                <span>芜湖市弋江区新时代商业街19# 221 223号</span>
               </li>
               <li className="flex items-center gap-3 text-stone-400 text-sm">
                 <Phone size={16} className="flex-shrink-0" />
-                <span>138-0000-1111</span>
+                <span>19315393167</span>
               </li>
               <li className="flex items-center gap-3 text-stone-400 text-sm">
                 <EnvelopeSimple size={16} className="flex-shrink-0" />
-                <span>hello@giraffe-edu.com</span>
+                <span>19315393167@giraffe-edu.com</span>
               </li>
             </ul>
           </div>
@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-stone-800 text-center">
           <p className="text-stone-500 text-sm">
-            © 2024 长颈鹿学堂 Giraffe Education. All rights reserved.
+            © 2024 芜湖长颈鹿成长中心 Giraffe Education. All rights reserved.
           </p>
         </div>
       </div>

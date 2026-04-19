@@ -10,7 +10,7 @@ import './globals.css'
  * 页面元数据配置
  */
 export const metadata: Metadata = {
-  title: '长颈鹿学堂 - 幼少儿素质教育平台',
+  title: '芜湖长颈鹿成长中心 - 幼少儿素质教育平台',
   description: '专注3-12岁幼少儿素质教育，培养孩子的创造力、表达力和思维力',
 }
 
