@@ -52,9 +52,9 @@ const TEACHERS = [
 
 const STATS = [
   { value: '100%', label: '持证上岗' },
-  { value: '50+', label: '专业教师' },
+  { value: '9+', label: '专业教师' },
   { value: '6年', label: '平均教龄' },
-  { value: '95%', label: '家长好评' },
+  { value: '98%', label: '家长好评' },
 ]
 
 export default function TeachersPage() {
