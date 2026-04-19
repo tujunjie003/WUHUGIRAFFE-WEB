@@ -1,6 +1,7 @@
 'use client'
 
 /**
+
  * 课程体系页面 - 高端优雅设计
  */
 
@@ -55,7 +56,6 @@ export default function CoursesPage() {
     <div className="min-h-screen bg-stone-50">
       <Header />
 
-      {/* Hero */}
       <section className="relative pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-white to-amber-50" />
         <div className="absolute top-20 left-1/4 w-[500px] h-[500px] bg-gradient-to-br from-amber-200/30 to-orange-200/20 rounded-full blur-[100px]" />
@@ -79,7 +79,6 @@ export default function CoursesPage() {
         </div>
       </section>
 
-      {/* 课程卡片 */}
       <section className="py-24 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <div className="space-y-8">
@@ -93,12 +92,9 @@ export default function CoursesPage() {
               >
                 <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
                   <div className="flex flex-col lg:flex-row">
-                    {/* 左侧渐变色块 */}
                     <div className={`lg:w-2 flex items-center justify-center p-8 lg:p-12 bg-gradient-to-br ${course.gradient}`}>
                       <GraduationCap size={64} className="text-white/90" weight="fill" />
                     </div>
-                    
-                    {/* 右侧内容 */}
                     <div className="flex-1 p-8 lg:p-10">
                       <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
                         <div>
@@ -142,7 +138,6 @@ export default function CoursesPage() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-24 bg-gradient-to-br from-orange-500 to-amber-500 relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/10 rounded-full blur-[100px]" />
@@ -155,9 +150,9 @@ export default function CoursesPage() {
           <p className="text-orange-100 mb-8 text-lg">
             预约一次免费咨询，我们的课程顾问会为您推荐最适合孩子的课程组合
           </p>
-          <Button size="lg" className="bg-white text-orange-600 hover:bg-orange-50 shadow-xl">
+          <button className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-xl hover:bg-orange-50 transition-colors shadow-xl text-lg">
             预约免费咨询
-          </Button>
+          </button>
         </div>
       </section>
 
