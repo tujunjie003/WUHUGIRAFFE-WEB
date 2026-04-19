@@ -128,7 +128,7 @@ export default function HomePage() {
             >
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
                 <Image
-                  src="/images/hero.jpg"
+                  src="/WUHUGIRAFFE-WEB/images/hero.jpg"
                   alt="长颈鹿学堂 - 孩子们在教室中学习"
                   fill
                   className="object-cover"

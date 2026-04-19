@@ -89,7 +89,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-3xl overflow-hidden relative">
                 <Image
-                  src="/images/about-team.jpg"
+                  src="/WUHUGIRAFFE-WEB/images/about-team.jpg"
                   alt="长颈鹿学堂团队"
                   fill
                   className="object-cover"
