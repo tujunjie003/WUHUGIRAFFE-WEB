@@ -9,7 +9,6 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Card from '@/components/ui/Card'
-import { motion } from 'framer-motion'
 
 const MILESTONES = [
   { year: '2019', title: '梦想启航', desc: '芜湖长颈鹿成长中心成立，开启幼少儿教育新篇章' },
@@ -19,21 +18,9 @@ const MILESTONES = [
 ]
 
 const VALUES = [
-  {
-    icon: <Heart size={24} weight="fill" />,
-    title: '爱与尊重',
-    desc: '尊重每一个孩子的独特性，用爱浇灌每一颗心灵',
-  },
-  {
-    icon: <Lightbulb size={24} weight="fill" />,
-    title: '探索精神',
-    desc: '鼓励孩子保持好奇心，在探索中学习成长',
-  },
-  {
-    icon: <Target size={24} weight="fill" />,
-    title: '全面发展',
-    desc: '注重知识、能力、品格的全方位培养',
-  },
+  { icon: <Heart size={24} weight="fill" />, title: '爱与尊重', desc: '尊重每一个孩子的独特性，用爱浇灌每一颗心灵' },
+  { icon: <Lightbulb size={24} weight="fill" />, title: '探索精神', desc: '鼓励孩子保持好奇心，在探索中学习成长' },
+  { icon: <Target size={24} weight="fill" />, title: '全面发展', desc: '注重知识、能力、品格的全方位培养' },
 ]
 
 export default function AboutPage() {
@@ -42,15 +29,13 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-orange-50 via-white to-amber-50 relative overflow-hidden">
+      <section className="pt-32 pb-16 bg-stone-50 relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-200/20 rounded-full blur-[120px]" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/5 rounded-full blur-[120px]" />
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">
-            关于我们
-          </h1>
+          <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">关于我们</h1>
           <p className="text-xl text-stone-600 leading-relaxed">
             2019年，芜湖长颈鹿成长中心成立。
             <br />
@@ -60,65 +45,29 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-semibold text-stone-900 tracking-tight mb-6">
-                我们的故事
-              </h2>
-              <div className="space-y-4 text-stone-600 leading-relaxed">
-                <p>
-                  2019年，芜湖长颈鹿成长中心成立，致力于为3-12岁幼少儿提供优质的素质教育。
-                  我们相信，每一个孩子都有独特的潜能，而好的教育，应该像阳光和雨露，
-                  滋养而不是塑造。
-                </p>
-                <p>
-                  从最初的十几个孩子，到如今的三百名在读学员；
-                  从单一的英语课程，到涵盖语言、思维等多维度的课程体系；
-                  长颈鹿成长中心始终坚持"小而美"的办学理念，用心对待每一个孩子。
-                </p>
-                <p>
-                  我们不追求规模最大，但追求品质最优。
-                  每一门课程，都经过精心研发和反复打磨；
-                  每一位老师，都经过严格培训和持续成长；
-                  每一个家庭，都获得贴心专业的服务支持。
-                </p>
-              </div>
+      <section className="py-16 bg-orange-50/50">
+        <div className="max-w-2xl mx-auto px-4">
+          <Card className="p-8">
+            <h2 className="text-2xl font-semibold text-stone-900 mb-6 text-center">我们的故事</h2>
+            <div className="space-y-4 text-stone-600 leading-relaxed">
+              <p>2019年，芜湖长颈鹿成长中心成立，致力于为3-12岁幼少儿提供优质的教育。我们相信，每一个孩子都有独特的潜能，而好的教育，应该像阳光和雨露，滋养而不是塑造。</p>
+              <p>从最初的十几个孩子，到如今的三百名在读学员；从单一的英语课程，到涵盖语言、思维等多维度的课程体系；长颈鹿成长中心始终坚持"小而美"的办学理念，用心对待每一个孩子。</p>
+              <p>我们不追求规模最大，但追求品质最优。每一门课程，都经过精心研发；每一位老师，都经过严格培训；每一个家庭，都获得贴心专业的服务支持。</p>
             </div>
-            <div className="relative">
-              <div className="aspect-[4/3] rounded-3xl overflow-hidden relative">
-                <Image
-                  src="/WUHUGIRAFFE-WEB/images/about-team.jpg"
-                  alt="长颈鹿成长中心团队"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-orange-200/50 rounded-full blur-2xl" />
-            </div>
-          </div>
+          </Card>
         </div>
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-stone-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-semibold text-stone-900 tracking-tight mb-4">
-              我们的价值观
-            </h2>
-            <p className="text-stone-600">指引我们前行的力量</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {VALUES.map((value, i) => (
-              <Card key={i} className="p-8 text-center">
-                <div className="w-16 h-16 rounded-2xl bg-orange-100 flex items-center justify-center mx-auto mb-6 text-orange-500">
-                  {value.icon}
-                </div>
-                <h3 className="text-xl font-medium text-stone-900 mb-3">{value.title}</h3>
-                <p className="text-stone-600 leading-relaxed">{value.desc}</p>
+      <section className="py-16 bg-white">
+        <div className="max-w-2xl mx-auto px-4">
+          <h2 className="text-2xl font-semibold text-stone-900 mb-8 text-center">我们的价值观</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {VALUES.map((v, i) => (
+              <Card key={i} className="p-6 text-center">
+                <div className="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center mx-auto mb-4 text-orange-500">{v.icon}</div>
+                <h3 className="text-lg font-medium text-stone-900 mb-2">{v.title}</h3>
+                <p className="text-sm text-stone-600">{v.desc}</p>
               </Card>
             ))}
           </div>
@@ -126,34 +75,21 @@ export default function AboutPage() {
       </section>
 
       {/* Milestones */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-semibold text-stone-900 tracking-tight mb-4">
-              发展历程
-            </h2>
-            <p className="text-stone-600">一路走来，感恩有你</p>
-          </div>
-
-          <div className="relative">
-            {/* 时间线 */}
-            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-stone-200 -translate-x-1/2" />
-            
-            <div className="space-y-12">
-              {MILESTONES.map((m, i) => (
-                <div key={i} className={`flex items-center gap-8 ${i % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
-                  <div className={`flex-1 ${i % 2 === 1 ? 'md:text-right' : ''}`}>
-                    <Card className="p-6 inline-block">
-                      <div className="text-orange-500 font-semibold mb-2">{m.year}</div>
-                      <h3 className="text-lg font-medium text-stone-900 mb-2">{m.title}</h3>
-                      <p className="text-sm text-stone-600">{m.desc}</p>
-                    </Card>
-                  </div>
-                  <div className="hidden md:block w-3 h-3 rounded-full bg-orange-500 border-4 border-white shadow-lg flex-shrink-0 -translate-x-1/2" />
-                  <div className="flex-1" />
+      <section className="py-16 bg-orange-50/50">
+        <div className="max-w-2xl mx-auto px-4">
+          <h2 className="text-2xl font-semibold text-stone-900 mb-8 text-center">发展历程</h2>
+          <div className="space-y-4">
+            {MILESTONES.map((m, i) => (
+              <Card key={i} className="p-4 flex items-center gap-4">
+                <div className="w-16 h-16 rounded-xl bg-orange-500 flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-semibold text-sm">{m.year}</span>
                 </div>
-              ))}
-            </div>
+                <div>
+                  <h3 className="font-medium text-stone-900">{m.title}</h3>
+                  <p className="text-sm text-stone-500">{m.desc}</p>
+                </div>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
