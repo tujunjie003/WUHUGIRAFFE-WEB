@@ -59,20 +59,20 @@ const STATS = [
 
 export default function TeachersPage() {
   return (
-    <div className="min-h-screen bg-zinc-950">
+    <div className="min-h-screen bg-stone-50">
       <Header />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-zinc-950 relative overflow-hidden">
+      <section className="pt-32 pb-20 bg-stone-50 relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 rounded-full blur-[120px]" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/5 rounded-full blur-[120px]" />
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl sm:text-5xl font-semibold text-zinc-100 tracking-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">
             师资团队
           </h1>
-          <p className="text-xl text-zinc-500 leading-relaxed">
+          <p className="text-xl text-stone-600 leading-relaxed">
             专业的力量，源自热爱与专业
             <br />
             每一位老师都是我们最珍贵的财富
@@ -81,13 +81,13 @@ export default function TeachersPage() {
       </section>
 
       {/* 数据 */}
-      <section className="pb-16 bg-zinc-950">
+      <section className="pb-16 bg-stone-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {STATS.map((stat, i) => (
               <Card key={i} className="p-6 text-center">
-                <div className="text-3xl font-semibold text-emerald-400 mb-1">{stat.value}</div>
-                <div className="text-sm text-zinc-500">{stat.label}</div>
+                <div className="text-3xl font-semibold text-orange-400 mb-1">{stat.value}</div>
+                <div className="text-sm text-stone-600">{stat.label}</div>
               </Card>
             ))}
           </div>
@@ -95,7 +95,7 @@ export default function TeachersPage() {
       </section>
 
       {/* 教师列表 */}
-      <section className="pb-20 bg-zinc-900/50">
+      <section className="pb-20 bg-orange-50/500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {TEACHERS.map((teacher, i) => (
@@ -113,10 +113,10 @@ export default function TeachersPage() {
                   
                   {/* 信息 */}
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-zinc-100 mb-1">{teacher.name}</h3>
-                    <div className="text-sm text-emerald-500 mb-3">{teacher.title}</div>
+                    <h3 className="text-xl font-semibold text-stone-900 mb-1">{teacher.name}</h3>
+                    <div className="text-sm text-orange-500 mb-3">{teacher.title}</div>
                     
-                    <div className="flex flex-wrap gap-3 mb-4 text-xs text-zinc-500">
+                    <div className="flex flex-wrap gap-3 mb-4 text-xs text-stone-600">
                       <span className="flex items-center gap-1">
                         <Medal size={12} /> {teacher.experience}
                       </span>
@@ -127,14 +127,14 @@ export default function TeachersPage() {
                     
                     <div className="flex flex-wrap gap-2 mb-4">
                       {teacher.certifications.map((cert, j) => (
-                        <span key={j} className="inline-flex items-center gap-1 px-2 py-1 rounded-lg bg-white/5 text-zinc-400 text-xs">
-                          <Certificate size={10} className="text-emerald-500" />
+                        <span key={j} className="inline-flex items-center gap-1 px-2 py-1 rounded-lg bg-orange-50/50 text-stone-500 text-xs">
+                          <Certificate size={10} className="text-orange-500" />
                           {cert}
                         </span>
                       ))}
                     </div>
                     
-                    <p className="text-sm text-zinc-500 leading-relaxed">{teacher.desc}</p>
+                    <p className="text-sm text-stone-600 leading-relaxed">{teacher.desc}</p>
                   </div>
                 </div>
               </Card>

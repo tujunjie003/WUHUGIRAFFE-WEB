@@ -2,7 +2,6 @@
 
 /**
  * 按钮组件
- * @description taste skill 高端按钮，emerald 强调色
  */
 
 import { motion } from 'framer-motion'
@@ -34,9 +33,9 @@ export default function Button({
   }
 
   const variantStyles = {
-    primary: 'bg-emerald-500 text-white hover:bg-emerald-600 active:scale-[0.98] shadow-lg shadow-emerald-500/25',
-    secondary: 'border-2 border-emerald-500 text-emerald-500 hover:bg-emerald-500/10 active:scale-[0.98]',
-    ghost: 'text-zinc-400 hover:text-zinc-100 hover:bg-white/5',
+    primary: 'bg-orange-500 text-white hover:bg-orange-600 active:scale-[0.98] shadow-lg shadow-orange-500/25',
+    secondary: 'border-2 border-orange-500 text-orange-500 hover:bg-orange-50 active:scale-[0.98]',
+    ghost: 'text-stone-500 hover:text-stone-900 hover:bg-stone-100',
   }
 
   return (
