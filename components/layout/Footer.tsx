@@ -36,7 +36,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* 联系我们 */}
+          {/* 联系信息 */}
           <div>
             <h4 className="text-white font-medium mb-4">联系我们</h4>
             <ul className="space-y-3 text-sm">
