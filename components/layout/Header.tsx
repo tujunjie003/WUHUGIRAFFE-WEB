@@ -14,7 +14,7 @@ const NAV_LINKS = [
   { href: '/about', label: '关于我们' },
   { href: '/courses', label: '课程体系' },
   { href: '/teachers', label: '师资团队' },
-  { href: '/contact', label: '联系我们' },
+  
 ]
 
 export default function Header() {
