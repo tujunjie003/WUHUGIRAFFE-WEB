@@ -54,7 +54,7 @@ export default function CoursesPage() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/5 rounded-full blur-[120px]" />
         </div>
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 text-right">
           <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">
             课程体系
           </h1>
@@ -104,7 +104,7 @@ export default function CoursesPage() {
 
       {/* CTA */}
       <section className="py-16 bg-white">
-        <div className="max-w-2xl mx-auto px-4 text-center">
+        <div className="max-w-2xl mx-auto px-4 text-right">
           <h2 className="text-2xl font-semibold text-stone-900 mb-4">不知道该选什么课程？</h2>
           <p className="text-stone-600 mb-6">预约一次免费咨询，我们的课程顾问会为您推荐最适合孩子的课程组合</p>
           <Button size="lg">预约免费咨询</Button>

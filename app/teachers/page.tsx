@@ -35,7 +35,7 @@ export default function TeachersPage() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-500/5 rounded-full blur-[120px]" />
         </div>
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 text-right">
           <h1 className="text-4xl sm:text-5xl font-semibold text-stone-900 tracking-tight mb-6">师资团队</h1>
           <p className="text-xl text-stone-600 leading-relaxed">
             专业的力量，源自热爱与专业
@@ -50,7 +50,7 @@ export default function TeachersPage() {
         <div className="max-w-2xl mx-auto px-4">
           <div className="grid grid-cols-4 gap-4">
             {STATS.map((stat, i) => (
-              <Card key={i} className="p-4 text-center">
+              <Card key={i} className="p-4 text-right">
                 <div className="text-2xl font-semibold text-orange-500 mb-1">{stat.value}</div>
                 <div className="text-sm text-stone-500">{stat.label}</div>
               </Card>
