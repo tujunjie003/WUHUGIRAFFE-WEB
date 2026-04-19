@@ -19,7 +19,7 @@ const TEACHERS = [
     education: '英国伦敦大学教育学硕士',
     certifications: ['TESOL认证', '戏剧教育导师'],
     desc: '拥有丰富的海外教学经历，将沉浸式戏剧教学带入课堂，让孩子在快乐中掌握纯正英语。',
-    image: '/images/teacher-sarah-1.jpg',
+    image: '/WUHUGIRAFFE-WEB/images/teacher-sarah-1.jpg',
   },
   {
     name: '张明远 老师',
@@ -28,7 +28,7 @@ const TEACHERS = [
     education: '北京大学数学与应用数学',
     certifications: ['奥赛金牌教练', '儿童心理指导师'],
     desc: '坚信"数学是思维的体操"，擅长用趣味方式让孩子爱上数学思维。',
-    image: '/images/teacher-2.jpg',
+    image: '/WUHUGIRAFFE-WEB/images/teacher-2.jpg',
   },
   {
     name: '王思雨 老师',
@@ -37,7 +37,7 @@ const TEACHERS = [
     education: '中央美术学院绘本创作专业',
     certifications: ['国家教师资格证', '艺术治疗师（初级）'],
     desc: '作品曾获多项儿童绘本大奖，课堂充满想象力和创造力。',
-    image: '/images/teacher-3.jpg',
+    image: '/WUHUGIRAFFE-WEB/images/teacher-3.jpg',
   },
   {
     name: '李浩然 老师',
@@ -46,7 +46,7 @@ const TEACHERS = [
     education: '中国科学院物理研究所',
     certifications: ['青少年科技辅导员', 'STEM教育认证'],
     desc: '用简单有趣的实验激发孩子对科学的热爱，培养探索精神。',
-    image: '/images/teacher-1.jpg',
+    image: '/WUHUGIRAFFE-WEB/images/teacher-1.jpg',
   },
 ]
 
