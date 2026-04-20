@@ -122,7 +122,7 @@ export default function HomePage() {
             >
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/images/hero.jpg"
+                  src="/images/hero.jpg"
                   alt="芜湖长颈鹿成长中心"
                   fill
                   className="object-cover"
