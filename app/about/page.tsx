@@ -78,7 +78,7 @@ export default function AboutPage() {
             >
               <div className="relative">
                 <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
-                  <Image src="/images/images/about-team.jpg" alt="长颈鹿成长中心" fill className="object-cover" />
+                  <Image src="/images/about-team.jpg" alt="长颈鹿成长中心" fill className="object-cover" />
                 </div>
                 <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-gradient-to-br from-orange-400 to-amber-400 rounded-full blur-3xl opacity-40" />
               </div>
