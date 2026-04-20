@@ -31,7 +31,10 @@ jobs:
         run: npm ci
           
       - name: Build
-        run: npm run build
+        run: npm run build -- --force
+          
+      - name: Verify output exists
+        run: ls -la out/ && echo "OUT_EXISTS=success" >> $GITHUB_ENV
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
