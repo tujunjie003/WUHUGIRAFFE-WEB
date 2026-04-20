@@ -140,7 +140,7 @@ export default function AboutPage() {
           </div>
           
           <div className="relative">
-            <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-orange-300 via-amber-300 to-orange-300 -translate-x-1/2" />
+            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-orange-300 via-amber-300 to-orange-300 md:-translate-x-1/2" />
             
             <div className="space-y-8">
               {MILESTONES.map((m, i) => (
@@ -150,16 +150,17 @@ export default function AboutPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  className={`relative flex items-center ${i % 2 === 0 ? 'justify-start' : 'justify-end'}`}
+                  className="relative flex items-start md:items-center"
                 >
-                  <div className={`w-7/12 ${i % 2 === 0 ? 'pr-8 text-right' : 'pl-8'}`}>
-                    <Card className="p-4 border-l-4 border-l-orange-400 hover:shadow-lg transition-shadow">
-                      <div className="text-4xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent mb-1">{m.year}</div>
-                      <h3 className="text-lg font-semibold text-stone-900 mb-1">{m.title}</h3>
+                  <div className="hidden md:block absolute left-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2 z-10" />
+                  <div className={`pl-12 md:pl-0 md:w-7/12 ${i % 2 === 0 ? 'md:pr-8 md:text-right' : 'md:pl-8'} text-left`}>
+                    <div className="md:hidden absolute left-4 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2 z-10" />
+                    <Card className="p-4 border-l-4 border-l-orange-400 hover:shadow-lg hover:border-l-orange-500 transition-shadow">
+                      <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent mb-1">{m.year}</div>
+                      <h3 className="text-base md:text-lg font-semibold text-stone-900 mb-1">{m.title}</h3>
                       <p className="text-stone-500 text-sm leading-relaxed">{m.desc}</p>
                     </Card>
                   </div>
-                  <div className="absolute left-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2 z-10" />
                 </motion.div>
               ))}
             </div>
