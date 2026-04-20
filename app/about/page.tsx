@@ -142,7 +142,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-orange-300 via-amber-300 to-orange-300 -translate-x-1/2" />
             
-            <div className="space-y-12">
+            <div className="space-y-8">
               {MILESTONES.map((m, i) => (
                 <motion.div
                   key={i}
@@ -159,7 +159,7 @@ export default function AboutPage() {
                       <p className="text-stone-500 text-sm leading-relaxed">{m.desc}</p>
                     </Card>
                   </div>
-                  <div className="absolute left-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2" />
+                  <div className="absolute left-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2 z-10" />
                 </motion.div>
               ))}
             </div>
