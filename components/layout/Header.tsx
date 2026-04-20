@@ -14,7 +14,6 @@ const NAV_LINKS = [
   { href: '/about', label: '关于我们' },
   { href: '/courses', label: '课程体系' },
   { href: '/teachers', label: '师资团队' },
-  
 ]
 
 export default function Header() {
@@ -37,31 +36,27 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* 桌面端导航 */}
-        <nav className="hidden md:flex items-center gap-1">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="px-4 py-2 text-sm text-stone-600 hover:text-orange-600 rounded-lg hover:bg-orange-50 transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
+        {/* 右侧操作区：导航 + 预约体验按钮 */}
+        <div className="flex items-center gap-1">
+          <nav className="hidden md:flex items-center gap-1">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="px-4 py-2 text-sm text-stone-600 hover:text-orange-600 rounded-lg hover:bg-orange-50 transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
 
-        {/* 右侧操作 */}
-        <div className="flex items-center gap-3">
-          <Link href="/enroll">
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="px-5 py-2 bg-orange-500 text-white text-sm font-medium rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20"
-            >
-              预约体验
-            </motion.button>
+          <Link
+            href="/enroll"
+            className="ml-2 px-5 py-2 bg-orange-500 text-white text-sm font-medium rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-500/20"
+          >
+            预约体验
           </Link>
-          
+
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="md:hidden p-2 text-stone-600 hover:text-orange-600"
