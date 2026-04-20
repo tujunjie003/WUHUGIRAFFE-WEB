@@ -140,9 +140,9 @@ export default function AboutPage() {
           </div>
           
           <div className="relative">
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-orange-300 via-amber-300 to-orange-300 md:-translate-x-1/2" />
+            <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-orange-300 via-amber-300 to-orange-300 -translate-x-1/2" />
             
-            <div className="space-y-8">
+            <div className="space-y-10">
               {MILESTONES.map((m, i) => (
                 <motion.div
                   key={i}
@@ -150,22 +150,36 @@ export default function AboutPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5 }}
-                  className="relative flex items-start md:items-center"
+                  className="relative"
                 >
-                  <div className="hidden md:block absolute left-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2 z-10" />
-                  <div className={`pl-12 md:pl-0 md:w-7/12 ${i % 2 === 0 ? 'md:pr-8 md:text-right' : 'md:pl-8'} text-left`}>
-                    <div className="md:hidden absolute left-4 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2 z-10" />
-                    <Card className="p-4 border-l-4 border-l-orange-400 hover:shadow-lg hover:border-l-orange-500 transition-shadow">
-                      <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent mb-1">{m.year}</div>
-                      <h3 className="text-base md:text-lg font-semibold text-stone-900 mb-1">{m.title}</h3>
-                      <p className="text-stone-500 text-sm leading-relaxed">{m.desc}</p>
-                    </Card>
+                  <div className={`flex items-stretch ${i % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+                    <div className={`w-full max-w-2xl flex items-stretch ${i % 2 === 0 ? '' : 'flex-row-reverse'}`}>
+                      {/* Year block */}
+                      <div className={`w-28 flex-shrink-0 flex items-center justify-center ${i % 2 === 0 ? 'pr-6 text-right' : 'pl-6 text-left'}`}>
+                        <div className="text-5xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent leading-none">{m.year}</div>
+                      </div>
+                      
+                      {/* Accent bar */}
+                      <div className="w-1 flex-shrink-0 bg-gradient-to-b from-orange-400 to-amber-400 rounded-full" />
+                      
+                      {/* Content block */}
+                      <div className={`flex-1 ${i % 2 === 0 ? 'pl-6' : 'pr-6'} py-4`}>
+                        <div className="bg-white rounded-2xl border border-stone-200 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-5">
+                          <h3 className="text-xl font-semibold text-stone-900 mb-2">{m.title}</h3>
+                          <p className="text-stone-500 text-sm leading-relaxed">{m.desc}</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                  
+                  {/* Center dot */}
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg z-10" />
                 </motion.div>
               ))}
             </div>
           </div>
         </div>
+      </section>
       </section>
 
       <Footer />
