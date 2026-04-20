@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          clean: true
         
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -30,8 +33,10 @@ jobs:
         run: npm ci
           
       - name: Build
-        run: npm run build
-
+        run: |
+          rm -rf .next out
+          npm run build
+          
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
