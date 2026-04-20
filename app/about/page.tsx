@@ -1,1 +1,173 @@
-J3VzZSBjbGllbnQnCgovKioKICog5YWz5LqO5oiR5Lus6aG16Z2iIC0g6auY56uv5LyY6ZuF6K6+6K6hCiAqLwoKaW1wb3J0IHsgSGVhcnQsIExpZ2h0YnVsYiwgVGFyZ2V0LCBHcmFkdWF0aW9uQ2FwIH0gZnJvbSAnQHBob3NwaG9yLWljb25zL3JlYWN0JwppbXBvcnQgSW1hZ2UgZnJvbSAnbmV4dC9pbWFnZScKaW1wb3J0IEhlYWRlciBmcm9tICdAL2NvbXBvbmVudHMvbGF5b3V0L0hlYWRlcicKaW1wb3J0IEZvb3RlciBmcm9tICdAL2NvbXBvbmVudHMvbGF5b3V0L0Zvb3RlcicKaW1wb3J0IENhcmQgZnJvbSAnQC9jb21wb25lbnRzL3VpL0NhcmQnCmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nCgpjb25zdCBWQUxVRVMgPSBbCiAgewogICAgaWNvbjogPEhlYXJ0IHNpemU9ezI4fSB3ZWlnaHQ9ImZpbGwiIC8+LAogICAgdGl0bGU6ICfniLHkuI7lsIrph40nLAogICAgZGVzYzogJ+WwiumHjeavj+S4gOS4quWtqeWtkOeahOeLrOeJueaAp++8jOeUqOeIsea1h+eBjOavj+S4gOmil+W/g+eBtScKICB9LAogIHsKICAgIGljb246IDxMaWdodGJ1bGIgc2l6ZT17Mjh9IHdlaWdodD0iZmlsbCIgLz4sCiAgICB0aXRsZTogJ+aOoue0oueyvuelnicsCiAgICBkZXNjOiAn6byT5Yqx5a2p5a2Q5L+d5oyB5aW95aWH5b+D77yM5Zyo5o6i57Si5Lit5a2m5Lmg5oiQ6ZW/JwogIH0sCiAgewogICAgaWNvbjogPFRhcmdldCBzaXplPXsyOH0gd2VpZ2h0PSJmaWxsIiAvPiwKICAgIHRpdGxlOiAn5YWo6Z2i5Y+R5bGVJywKICAgIGRlc2M6ICfms6jph43nn6Xor4bjgIHog73lipvjgIHlk4HmoLznmoTlhajmlrnkvY3ln7nlhbsnCiAgfSwKXQoKY29uc3QgTUlMRVNUT05FUyA9IFsKICB7IHllYXI6ICcyMDE5JywgdGl0bGU6ICfmoqbmg7PlkK/oiKonLCBkZXNjOiAn6Iqc5rmW6ZW/6aKI6bm/5oiQ6ZW/5Lit5b+D5oiQ56uLJyB9LAogIHsgeWVhcjogJzIwMjAnLCB0aXRsZTogJ+WFseWFi+aXtuiJsCcsIGRlc2M6ICfnlqvmg4XmnJ/pl7TlnZrmjIHnur/kuIrmlZnlraYnIH0sCiAgeyB5ZWFyOiAnMjAyNCcsIHRpdGxlOiAn6KeE5qih5omp5bygJywgZGVzYzogJ+WcqOivu+WtpuWRmOeqgeegtDMwMOS6uicgfSwKICB7IHllYXI6ICcyMDI2JywgdGl0bGU6ICflk4HotKjljYfnuqcnLCBkZXNjOiAn5oyB57ut5LyY5YyW6K++56iL5L2T57O7JyB9LApdCgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBYm91dFBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctc3RvbmUtNTAiPgogICAgICA8SGVhZGVyIC8+CgogICAgICB7LyogSGVybyAtIOS8mOmbhea4kOWPmOiDjOaZryAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJyZWxhdGl2ZSBwdC0zMiBwYi0yNCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLWJyIGZyb20tb3JhbmdlLTUwIHZpYS13aGl0ZSB0by1hbWJlci01MCIgLz4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTIwIHJpZ2h0LTAgdy1bNjAwcHhdIGgtWzYwMHB4XSBiZy1ncmFkaWVudC10by1iciBmcm9tLW9yYW5nZS0yMDAvMzAgdG8tYW1iZXItMjAwLzIwIHJvdW5kZWQtZnVsbCBibHVyLVsxMjBweF0iIC8+CiAgICAgICAgCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAgbWF4LXctNHhsIG14LWF1dG8gcHgtNCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDMwIH19CiAgICAgICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgeTogMCB9fQogICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjggfX0KICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgcHgtNCBweS0xLjUgcm91bmRlZC1mdWxsIGJnLW9yYW5nZS0xMDAgdGV4dC1vcmFuZ2UtNjAwIHRleHQtc20gZm9udC1tZWRpdW0gbWItNiI+CiAgICAgICAgICAgICAg5YWt5bm05rex6ICVIMK3IOWTgei0qOaVmeiCsgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtNXhsIG1kOnRleHQtNnhsIGZvbnQtc2VtaWJvbGQgdGV4dC1zdG9uZS05MDAgdHJhY2tpbmctdGlnaHQgbWItNiI+CiAgICAgICAgICAgICAg5YWz5LqO5oiR5LusCiAgICAgICAgICAgIDwvaDE+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LXN0b25lLTYwMCBsZWFkaW5nLXJlbGF4ZWQgbWF4LXctMnhsIG14LWF1dG8iPgogICAgICAgICAgICAgIDIwMTnlubTvvIzoipzmuZbplb/poojpub/miJDplb/kuK3lv4PmiJDnq4vvvIzoh7Tlipvkuo7kuLozLTEy5bKB5bm85bCR5YS/5o+Q5L6b5LyY6LSo5pWZ6IKy44CCCiAgICAgICAgICAgICAg5YWt5bm05p2l77yM5oiR5Lus5aeL57uI5Z2a5oyBIuWwj+iAjOe+jiLnmoTlip7lrabnkIblv7XjgIIKICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7Lyog5ZOB54mM5pWF5LqLIC0g5bem5Y+z5biD5bGAICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB5LTI0IGJnLXdoaXRlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNnhsIG14LWF1dG8gcHgtNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBsZzpncmlkLWNvbHMtMiBnYXAtMTYgaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHg6IC0zMCB9fQogICAgICAgICAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHg6IDAgfX0KICAgICAgICAgICAgICB2aWV3cG9ydD17eyBvbmNlOiB0cnVlIH19CiAgICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44IH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFzcGVjdC1bNC8zXSByb3VuZGVkLTN4bCBvdmVyZmxvdy1oaWRkZW4gc2hhZG93LTJ4bCI+CiAgICAgICAgICAgICAgICAgIDxJbWFnZSBzcmM9Ii9pbWFnZXMvYWJvdXQtdGVhbS5qcGciIGFsdD0i6ZW/6aKI6bm/5oiQ6ZW/5Lit5b+DIiBmaWxsIGNsYXNzTmFtZT0ib2JqZWN0LWNvdmVyIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLWJvdHRvbS04IC1yaWdodC04IHctNDggaC00OCBiZy1ncmFkaWVudC10by1iciBmcm9tLW9yYW5nZS00MDAgdG8tYW1iZXItNDAwIHJvdW5kZWQtZnVsbCBibHVyLTN4bCBvcGFjaXR5LTQwIiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICAgIAogICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeDogMzAgfX0KICAgICAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB4OiAwIH19CiAgICAgICAgICAgICAgdmlld3BvcnQ9e3sgb25jZTogdHJ1ZSB9fQogICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuOCB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1zZW1pYm9sZCB0ZXh0LXN0b25lLTkwMCBtYi02Ij7miJHku6znmoTmlYXkuos8L2gyPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQgdGV4dC1zdG9uZS02MDAgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICAgIDxwPuaIkeS7rOebuOS/oe+8jOavj+S4gOS4quWtqeWtkOmDveacieeLrOeJueeahOa9nOiDveOAguWlveeahOaVmeiCsu+8jOW6lOivpeWDj+mYs+WFieWSjOmbqOmcsu+8jOa7i+WFu+iAjOS4jeaYr+WhkemAoOOAgjwvcD4KICAgICAgICAgICAgICAgIDxwPuS7juacgOWIneeahOWNgeWHoOS4quWtqeWtkO+8jOWIsOWmguS7iueahOS4ieeZvuWQjeWcqOivu+WtpuWRmO+8m+mVv+miiOm5v+aIkOmVv+S4reW/g+Wni+e7iOWdmuaMgSLlsI/ogIznvo4i55qE5Yqe5a2m55CG5b+144CCPC9wPgogICAgICAgICAgICAgICAgPHA+5q+P5LiA6Zeo6K++56iL77yM6YO957uP6L+H57K+5b+D56CU5Y+R77yb5q+P5LiA5L2N6ICB5biI77yM6YO957uP6L+H5Lil5qC85Z+56K6t77yb5q+P5LiA5Liq5a625bqt77yM6YO96I635b6X6LS05b+D5LiT5Lia55qE5pyN5Yqh5pSv5oyB44CCPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIOS7t+WAvOingiAtIOWNoeeJh+e9keagvCAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0yNCBiZy1ncmFkaWVudC10by1iIGZyb20td2hpdGUgdG8tb3JhbmdlLTUwLzMwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNXhsIG14LWF1dG8gcHgtNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LXNlbWlib2xkIHRleHQtc3RvbmUtOTAwIG1iLTQiPuaIkeS7rOeahOS7t+WAvOingjwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zdG9uZS01MDAiPuaMh+W8leaIkeS7rOWJjeihjOeahOWKm+mHjzwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMyBnYXAtOCI+CiAgICAgICAgICAgIHtWQUxVRVMubWFwKCh2YWx1ZSwgaSkgPT4gKAogICAgICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDIwIH19CiAgICAgICAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB5OiAwIH19CiAgICAgICAgICAgICAgICB2aWV3cG9ydD17eyBvbmNlOiB0cnVlIH19CiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjUsIGRlbGF5OiBpICogMC4xIH19CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPENhcmQgY2xhc3NOYW1lPSJwLTggdGV4dC1jZW50ZXIgaC1mdWxsIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiByb3VuZGVkLTJ4bCBiZy1ncmFkaWVudC10by1iciBmcm9tLW9yYW5nZS00MDAgdG8tYW1iZXItNDAwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG14LWF1dG8gbWItNiBzaGFkb3ctbGcgc2hhZG93LW9yYW5nZS01MDAvMjAiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIj57dmFsdWUuaWNvbn08L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXN0b25lLTkwMCBtYi0zIj57dmFsdWUudGl0bGV9PC9oMz4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXN0b25lLTYwMCI+e3ZhbHVlLmRlc2N9PC9wPgogICAgICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIOWPkeWxleWOhueoiyAtIOaXtumXtOe6vyAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0yNCBiZy13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTR4bCBteC1hdXRvIHB4LTQiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTE2Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1zZW1pYm9sZCB0ZXh0LXN0b25lLTkwMCBtYi00Ij7lj5HlsZXljobnqIs8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc3RvbmUtNTAwIj7kuIDot6/otbDmnaXvvIzmhJ/mganmnInkvaA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMS8yIHRvcC0wIGJvdHRvbS0wIHctcHggYmctZ3JhZGllbnQtdG8tYiBmcm9tLW9yYW5nZS0zMDAgdmlhLWFtYmVyLTMwMCB0by1vcmFuZ2UtMzAwIC10cmFuc2xhdGUteC0xLzIiIC8+CiAgICAgICAgICAgIAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0xMiI+CiAgICAgICAgICAgICAge01JTEVTVE9ORVMubWFwKChtLCBpKSA9PiAoCiAgICAgICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMjAgfX0KICAgICAgICAgICAgICAgICAgd2hpbGVJblZpZXc9e3sgb3BhY2l0eTogMSwgeTogMCB9fQogICAgICAgICAgICAgICAgICB2aWV3cG9ydD17eyBvbmNlOiB0cnVlIH19CiAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNSB9fQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2ByZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciAke2kgJSAyID09PSAwID8gJ2p1c3RpZnktc3RhcnQnIDogJ2p1c3RpZnktZW5kJ31gfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YHctNS8xMiAke2kgJSAyID09PSAwID8gJ3ByLTggdGV4dC1yaWdodCcgOiAncGwtOCd9YH0+CiAgICAgICAgICAgICAgICAgICAgPENhcmQgY2xhc3NOYW1lPSJwLTYiPgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYm9sZCB0ZXh0LW9yYW5nZS01MDAgbWItMiI+e20ueWVhcn08L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LXN0b25lLTkwMCBtYi0xIj57bS50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXN0b25lLTUwMCB0ZXh0LXNtIj57bS5kZXNjfTwvcD4KICAgICAgICAgICAgICAgICAgICA8L0NhcmQ+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0xLzIgdy00IGgtNCByb3VuZGVkLWZ1bGwgYmctZ3JhZGllbnQtdG8tYnIgZnJvbS1vcmFuZ2UtNDAwIHRvLWFtYmVyLTQwMCBib3JkZXItNCBib3JkZXItd2hpdGUgc2hhZG93LWxnIC10cmFuc2xhdGUteC0xLzIiIC8+CiAgICAgICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxGb290ZXIgLz4KICAgIDwvZGl2PgogICkKfQo=
+'use client'
+
+/**
+ * 关于我们页面 - 高端优雅设计
+ */
+
+import { Heart, Lightbulb, Target, GraduationCap } from '@phosphor-icons/react'
+import Image from 'next/image'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import Card from '@/components/ui/Card'
+import { motion } from 'framer-motion'
+
+const VALUES = [
+  {
+    icon: <Heart size={28} weight="fill" />,
+    title: '爱与尊重',
+    desc: '尊重每一个孩子的独特性，用爱浇灌每一颗心灵'
+  },
+  {
+    icon: <Lightbulb size={28} weight="fill" />,
+    title: '探索精神',
+    desc: '鼓励孩子保持好奇心，在探索中学习成长'
+  },
+  {
+    icon: <Target size={28} weight="fill" />,
+    title: '全面发展',
+    desc: '注重知识、能力、品格的全方位培养'
+  },
+]
+
+const MILESTONES = [
+  { year: '2019', title: '梦想启航', desc: '芜湖长颈鹿成长中心成立' },
+  { year: '2020', title: '共克时艰', desc: '疫情期间坚持线上教学' },
+  { year: '2024', title: '规模扩张', desc: '在读学员突破300人' },
+  { year: '2026', title: '品质升级', desc: '持续优化课程体系' },
+]
+
+export default function AboutPage() {
+  return (
+    <div className="min-h-screen bg-stone-50">
+      <Header />
+
+      {/* Hero - 优雅渐变背景 */}
+      <section className="relative pt-32 pb-24 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-white to-amber-50" />
+        <div className="absolute top-20 right-0 w-[600px] h-[600px] bg-gradient-to-br from-orange-200/30 to-amber-200/20 rounded-full blur-[120px]" />
+        
+        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <span className="inline-block px-4 py-1.5 rounded-full bg-orange-100 text-orange-600 text-sm font-medium mb-6">
+              六年深耕 · 品质教育
+            </span>
+            <h1 className="text-5xl md:text-6xl font-semibold text-stone-900 tracking-tight mb-6">
+              关于我们
+            </h1>
+            <p className="text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto">
+              2019年，芜湖长颈鹿成长中心成立，致力于为3-12岁幼少儿提供优质教育。
+              六年来，我们始终坚持"小而美"的办学理念。
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* 品牌故事 - 左右布局 */}
+      <section className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className="relative">
+                <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
+                  <Image src="/images/images/about-team.jpg" alt="长颈鹿成长中心" fill className="object-cover" />
+                </div>
+                <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-gradient-to-br from-orange-400 to-amber-400 rounded-full blur-3xl opacity-40" />
+              </div>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <h2 className="text-3xl font-semibold text-stone-900 mb-6">我们的故事</h2>
+              <div className="space-y-4 text-stone-600 leading-relaxed">
+                <p>我们相信，每一个孩子都有独特的潜能。好的教育，应该像阳光和雨露，滋养而不是塑造。</p>
+                <p>从最初的十几个孩子，到如今的三百名在读学员；长颈鹿成长中心始终坚持"小而美"的办学理念。</p>
+                <p>每一门课程，都经过精心研发；每一位老师，都经过严格培训；每一个家庭，都获得贴心专业的服务支持。</p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* 价值观 - 卡片网格 */}
+      <section className="py-24 bg-gradient-to-b from-white to-orange-50/30">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-semibold text-stone-900 mb-4">我们的价值观</h2>
+            <p className="text-stone-500">指引我们前行的力量</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {VALUES.map((value, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+              >
+                <Card className="p-8 text-center h-full">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-400 to-amber-400 flex items-center justify-center mx-auto mb-6 shadow-lg shadow-orange-500/20">
+                    <div className="text-white">{value.icon}</div>
+                  </div>
+                  <h3 className="text-xl font-semibold text-stone-900 mb-3">{value.title}</h3>
+                  <p className="text-stone-600">{value.desc}</p>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 发展历程 - 时间线 */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-semibold text-stone-900 mb-4">发展历程</h2>
+            <p className="text-stone-500">一路走来，感恩有你</p>
+          </div>
+          
+          <div className="relative">
+            <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-orange-300 via-amber-300 to-orange-300 -translate-x-1/2" />
+            
+            <div className="space-y-12">
+              {MILESTONES.map((m, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  className={`relative flex items-center ${i % 2 === 0 ? 'justify-start' : 'justify-end'}`}
+                >
+                  <div className={`w-5/12 ${i % 2 === 0 ? 'pr-8 text-right' : 'pl-8'}`}>
+                    <Card className="p-6">
+                      <div className="text-3xl font-bold text-orange-500 mb-2">{m.year}</div>
+                      <h3 className="text-lg font-semibold text-stone-900 mb-1">{m.title}</h3>
+                      <p className="text-stone-500 text-sm">{m.desc}</p>
+                    </Card>
+                  </div>
+                  <div className="absolute left-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-orange-400 to-amber-400 border-4 border-white shadow-lg -translate-x-1/2" />
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  )
+}
