@@ -26,7 +26,7 @@ const TEACHERS = [
     education: '英国伦敦大学教育学硕士',
     certifications: ['TESOL认证', '戏剧教育导师'],
     desc: '拥有丰富的海外教学经历，将沉浸式戏剧教学带入课堂。',
-    image: '/images/images/teacher-sarah-1.jpg',
+    image: '/images/teacher-sarah-1.jpg',
     accent: 'from-orange-400 to-amber-400',
   },
   {
@@ -36,7 +36,7 @@ const TEACHERS = [
     education: '北京大学数学与应用数学',
     certifications: ['奥赛金牌教练', '儿童心理指导师'],
     desc: '坚信"数学是思维的体操"，擅长用趣味方式让孩子爱上数学。',
-    image: '/images/images/teacher-2.jpg',
+    image: '/images/teacher-2.jpg',
     accent: 'from-blue-400 to-indigo-400',
   },
   {
@@ -46,7 +46,7 @@ const TEACHERS = [
     education: '中央美术学院绘本创作专业',
     certifications: ['国家教师资格证', '艺术治疗师（初级）'],
     desc: '作品曾获多项儿童绘本大奖，课堂充满想象力和创造力。',
-    image: '/images/images/teacher-3.jpg',
+    image: '/images/teacher-3.jpg',
     accent: 'from-purple-400 to-pink-400',
   },
   {
@@ -56,7 +56,7 @@ const TEACHERS = [
     education: '中国科学院物理研究所',
     certifications: ['青少年科技辅导员', 'STEM教育认证'],
     desc: '用简单有趣的实验激发孩子对科学的热爱，培养探索精神。',
-    image: '/images/images/teacher-1.jpg',
+    image: '/images/teacher-1.jpg',
     accent: 'from-green-400 to-emerald-400',
   },
 ]
